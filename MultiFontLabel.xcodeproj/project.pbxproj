@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41F9F6D91B6D59B700843F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F9F6D81B6D59B700843F2D /* main.m */; };
+		41F9F6DC1B6D59B700843F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F9F6DB1B6D59B700843F2D /* AppDelegate.m */; };
+		41F9F6DF1B6D59B700843F2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F9F6DE1B6D59B700843F2D /* ViewController.m */; };
+		41F9F6E21B6D59B700843F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F9F6E01B6D59B700843F2D /* Main.storyboard */; };
+		41F9F6E41B6D59B700843F2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F9F6E31B6D59B700843F2D /* Images.xcassets */; };
+		41F9F6E71B6D59B700843F2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41F9F6E51B6D59B700843F2D /* LaunchScreen.xib */; };
+		41F9F6F31B6D59B700843F2D /* MultiFontLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F9F6F21B6D59B700843F2D /* MultiFontLabelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41F9F6ED1B6D59B700843F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F9F6CB1B6D59B700843F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F9F6D21B6D59B700843F2D;
+			remoteInfo = MultiFontLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41F9F6D31B6D59B700843F2D /* MultiFontLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiFontLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F9F6D71B6D59B700843F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F9F6D81B6D59B700843F2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41F9F6DA1B6D59B700843F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41F9F6DB1B6D59B700843F2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41F9F6DD1B6D59B700843F2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41F9F6DE1B6D59B700843F2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41F9F6E11B6D59B700843F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41F9F6E31B6D59B700843F2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41F9F6E61B6D59B700843F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		41F9F6EC1B6D59B700843F2D /* MultiFontLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiFontLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F9F6F11B6D59B700843F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F9F6F21B6D59B700843F2D /* MultiFontLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiFontLabelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41F9F6D01B6D59B700843F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F9F6E91B6D59B700843F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F9F6CA1B6D59B700843F2D = {
+			isa = PBXGroup;
+			children = (
+				41F9F6D51B6D59B700843F2D /* MultiFontLabel */,
+				41F9F6EF1B6D59B700843F2D /* MultiFontLabelTests */,
+				41F9F6D41B6D59B700843F2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41F9F6D41B6D59B700843F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41F9F6D31B6D59B700843F2D /* MultiFontLabel.app */,
+				41F9F6EC1B6D59B700843F2D /* MultiFontLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41F9F6D51B6D59B700843F2D /* MultiFontLabel */ = {
+			isa = PBXGroup;
+			children = (
+				41F9F6DA1B6D59B700843F2D /* AppDelegate.h */,
+				41F9F6DB1B6D59B700843F2D /* AppDelegate.m */,
+				41F9F6DD1B6D59B700843F2D /* ViewController.h */,
+				41F9F6DE1B6D59B700843F2D /* ViewController.m */,
+				41F9F6E01B6D59B700843F2D /* Main.storyboard */,
+				41F9F6E31B6D59B700843F2D /* Images.xcassets */,
+				41F9F6E51B6D59B700843F2D /* LaunchScreen.xib */,
+				41F9F6D61B6D59B700843F2D /* Supporting Files */,
+			);
+			path = MultiFontLabel;
+			sourceTree = "<group>";
+		};
+		41F9F6D61B6D59B700843F2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41F9F6D71B6D59B700843F2D /* Info.plist */,
+				41F9F6D81B6D59B700843F2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41F9F6EF1B6D59B700843F2D /* MultiFontLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				41F9F6F21B6D59B700843F2D /* MultiFontLabelTests.m */,
+				41F9F6F01B6D59B700843F2D /* Supporting Files */,
+			);
+			path = MultiFontLabelTests;
+			sourceTree = "<group>";
+		};
+		41F9F6F01B6D59B700843F2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41F9F6F11B6D59B700843F2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41F9F6D21B6D59B700843F2D /* MultiFontLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F9F6F61B6D59B700843F2D /* Build configuration list for PBXNativeTarget "MultiFontLabel" */;
+			buildPhases = (
+				41F9F6CF1B6D59B700843F2D /* Sources */,
+				41F9F6D01B6D59B700843F2D /* Frameworks */,
+				41F9F6D11B6D59B700843F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiFontLabel;
+			productName = MultiFontLabel;
+			productReference = 41F9F6D31B6D59B700843F2D /* MultiFontLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41F9F6EB1B6D59B700843F2D /* MultiFontLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F9F6F91B6D59B700843F2D /* Build configuration list for PBXNativeTarget "MultiFontLabelTests" */;
+			buildPhases = (
+				41F9F6E81B6D59B700843F2D /* Sources */,
+				41F9F6E91B6D59B700843F2D /* Frameworks */,
+				41F9F6EA1B6D59B700843F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F9F6EE1B6D59B700843F2D /* PBXTargetDependency */,
+			);
+			name = MultiFontLabelTests;
+			productName = MultiFontLabelTests;
+			productReference = 41F9F6EC1B6D59B700843F2D /* MultiFontLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41F9F6CB1B6D59B700843F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Agustin De Leon";
+				TargetAttributes = {
+					41F9F6D21B6D59B700843F2D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					41F9F6EB1B6D59B700843F2D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 41F9F6D21B6D59B700843F2D;
+					};
+				};
+			};
+			buildConfigurationList = 41F9F6CE1B6D59B700843F2D /* Build configuration list for PBXProject "MultiFontLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41F9F6CA1B6D59B700843F2D;
+			productRefGroup = 41F9F6D41B6D59B700843F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41F9F6D21B6D59B700843F2D /* MultiFontLabel */,
+				41F9F6EB1B6D59B700843F2D /* MultiFontLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41F9F6D11B6D59B700843F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F9F6E21B6D59B700843F2D /* Main.storyboard in Resources */,
+				41F9F6E71B6D59B700843F2D /* LaunchScreen.xib in Resources */,
+				41F9F6E41B6D59B700843F2D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F9F6EA1B6D59B700843F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41F9F6CF1B6D59B700843F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F9F6DF1B6D59B700843F2D /* ViewController.m in Sources */,
+				41F9F6DC1B6D59B700843F2D /* AppDelegate.m in Sources */,
+				41F9F6D91B6D59B700843F2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F9F6E81B6D59B700843F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F9F6F31B6D59B700843F2D /* MultiFontLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41F9F6EE1B6D59B700843F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F9F6D21B6D59B700843F2D /* MultiFontLabel */;
+			targetProxy = 41F9F6ED1B6D59B700843F2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41F9F6E01B6D59B700843F2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41F9F6E11B6D59B700843F2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41F9F6E51B6D59B700843F2D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41F9F6E61B6D59B700843F2D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41F9F6F41B6D59B700843F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41F9F6F51B6D59B700843F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41F9F6F71B6D59B700843F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiFontLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41F9F6F81B6D59B700843F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiFontLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41F9F6FA1B6D59B700843F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiFontLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiFontLabel.app/MultiFontLabel";
+			};
+			name = Debug;
+		};
+		41F9F6FB1B6D59B700843F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiFontLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiFontLabel.app/MultiFontLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41F9F6CE1B6D59B700843F2D /* Build configuration list for PBXProject "MultiFontLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F9F6F41B6D59B700843F2D /* Debug */,
+				41F9F6F51B6D59B700843F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F9F6F61B6D59B700843F2D /* Build configuration list for PBXNativeTarget "MultiFontLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F9F6F71B6D59B700843F2D /* Debug */,
+				41F9F6F81B6D59B700843F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41F9F6F91B6D59B700843F2D /* Build configuration list for PBXNativeTarget "MultiFontLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F9F6FA1B6D59B700843F2D /* Debug */,
+				41F9F6FB1B6D59B700843F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41F9F6CB1B6D59B700843F2D /* Project object */;
+}
