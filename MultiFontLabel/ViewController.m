@@ -27,11 +27,11 @@
 
     NSArray *texts = @[@"mira ",@"como", @" andas?"];
     
-    LI_MultipleFontLabel *label = [LI_MultipleFontLabel initWithFonts:fonts withTexts:texts withColors:colors];
+    LI_MultipleFontLabel *label = [[LI_MultipleFontLabel alloc] initWithFonts:fonts withTexts:texts withColors:colors];
     label.frame = CGRectMake(10, 20, 300, 50);
     [self.view addSubview:label];
     
-    LI_MultipleFontLabel *label2 = [LI_MultipleFontLabel initWithFonts:fonts withTexts:texts];
+    LI_MultipleFontLabel *label2 = [[LI_MultipleFontLabel alloc] initWithFonts:fonts withTexts:texts];
     label2.frame = CGRectMake(10, 70, 300, 100);
     [self.view addSubview:label2];
 

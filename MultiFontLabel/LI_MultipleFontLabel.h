@@ -10,8 +10,8 @@
 
 @interface LI_MultipleFontLabel : UILabel
 
-+ (LI_MultipleFontLabel *)initWithFonts:(NSArray *)fonts withTexts:(NSArray *)texts;
+- (id)initWithFonts:(NSArray *)fonts withTexts:(NSArray *)texts;
 
-+ (LI_MultipleFontLabel *)initWithFonts:(NSArray *)fonts withTexts:(NSArray *)texts withColors:(NSArray *)colors;
+- (id)initWithFonts:(NSArray *)fonts withTexts:(NSArray *)texts withColors:(NSArray *)colors;
 
 @end
