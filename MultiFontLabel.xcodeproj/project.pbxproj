@@ -14,6 +14,7 @@
 		41F9F6E41B6D59B700843F2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F9F6E31B6D59B700843F2D /* Images.xcassets */; };
 		41F9F6E71B6D59B700843F2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41F9F6E51B6D59B700843F2D /* LaunchScreen.xib */; };
 		41F9F6F31B6D59B700843F2D /* MultiFontLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F9F6F21B6D59B700843F2D /* MultiFontLabelTests.m */; };
+		41F9F6FE1B6D5C3A00843F2D /* LI_MultipleFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F9F6FD1B6D5C3A00843F2D /* LI_MultipleFontLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		41F9F6EC1B6D59B700843F2D /* MultiFontLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiFontLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F9F6F11B6D59B700843F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41F9F6F21B6D59B700843F2D /* MultiFontLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiFontLabelTests.m; sourceTree = "<group>"; };
+		41F9F6FC1B6D5C3A00843F2D /* LI_MultipleFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LI_MultipleFontLabel.h; sourceTree = "<group>"; };
+		41F9F6FD1B6D5C3A00843F2D /* LI_MultipleFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LI_MultipleFontLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				41F9F6E31B6D59B700843F2D /* Images.xcassets */,
 				41F9F6E51B6D59B700843F2D /* LaunchScreen.xib */,
 				41F9F6D61B6D59B700843F2D /* Supporting Files */,
+				41F9F6FC1B6D5C3A00843F2D /* LI_MultipleFontLabel.h */,
+				41F9F6FD1B6D5C3A00843F2D /* LI_MultipleFontLabel.m */,
 			);
 			path = MultiFontLabel;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F9F6FE1B6D5C3A00843F2D /* LI_MultipleFontLabel.m in Sources */,
 				41F9F6DF1B6D59B700843F2D /* ViewController.m in Sources */,
 				41F9F6DC1B6D59B700843F2D /* AppDelegate.m in Sources */,
 				41F9F6D91B6D59B700843F2D /* main.m in Sources */,
