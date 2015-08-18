@@ -52,30 +52,36 @@
             return self;
         }
         
-        //Iniitials values for label
-        NSMutableAttributedString *attributeForLabel;
+        [self addFonts:fonts withTexts:texts withColors:colors];
         
-        for (int i = 0; i < [fonts count]; i++)
-        {
-            //Next values to add to the label
-            NSDictionary *nextDic = @{ NSForegroundColorAttributeName : colors[i] ,
-                                       NSFontAttributeName : fonts[i]};
-            
-            NSMutableAttributedString *nextAttributeForLabel = [[NSMutableAttributedString alloc] initWithString:texts[i]
-                                                                                                      attributes:nextDic];
-            
-            if (!attributeForLabel) {
-                attributeForLabel = nextAttributeForLabel;
-            } else {
-                [attributeForLabel appendAttributedString:nextAttributeForLabel];
-            }
-        }
-        
-        self.attributedText = attributeForLabel;
-        [self sizeToFit];
     }
     
     return self;
+}
+
+- (void)addFonts:(NSArray *)fonts withTexts:(NSArray *)texts withColors:(NSArray *)colors
+{
+    //Iniitials values for label
+    NSMutableAttributedString *attributeForLabel;
+    
+    for (int i = 0; i < [fonts count]; i++)
+    {
+        //Next values to add to the label
+        NSDictionary *nextDic = @{ NSForegroundColorAttributeName : colors[i] ,
+                                   NSFontAttributeName : fonts[i]};
+        
+        NSMutableAttributedString *nextAttributeForLabel = [[NSMutableAttributedString alloc] initWithString:texts[i]
+                                                                                                  attributes:nextDic];
+        
+        if (!attributeForLabel) {
+            attributeForLabel = nextAttributeForLabel;
+        } else {
+            [attributeForLabel appendAttributedString:nextAttributeForLabel];
+        }
+    }
+    
+    self.attributedText = attributeForLabel;
+    [self sizeToFit];
 }
 
 @end

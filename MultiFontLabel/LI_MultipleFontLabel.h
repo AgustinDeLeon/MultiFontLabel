@@ -14,4 +14,6 @@
 
 - (id)initWithFonts:(NSArray *)fonts withTexts:(NSArray *)texts withColors:(NSArray *)colors;
 
+- (void)addFonts:(NSArray *)fonts withTexts:(NSArray *)texts withColors:(NSArray *)colors;
+
 @end
